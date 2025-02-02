@@ -1,78 +1,62 @@
-package testPackage;
+package biglogformpratice.testbaseandform;
 
-import com.codeborne.selenide.Configuration;
+import biglogformpratice.asserttests.TestDataProvider;
+import biglogformpratice.dataforpageform.DataForTest;
+
 import org.junit.jupiter.api.Test;
-import org.junit.jupiter.params.ParameterizedTest;
-import org.junit.jupiter.params.provider.CsvSource;
-
-import static com.codeborne.selenide.Condition.text;
-import static com.codeborne.selenide.Selectors.byText;
 import static com.codeborne.selenide.Selenide.*;
 
 public class TestPractiseForm extends TestBase {
+    DataForTest dataForTest = new DataForTest();
+    TestDataProvider testDataProvider = new TestDataProvider();
+
 
     @Test
     void testOfPractiseForm() {
-        Configuration.pageLoadTimeout = 60000;
-        String firstName = "Dima";
-        String lastName = "Li";
-        String userEmail = "dima@mail.ru";
-        String gender = "Male";
-        String userNumber = "0987654321";
-        String dayOfBirth = "020";
-        String monthOfBirth = "March";
-        String yearOfBirth = "2000";
-        String state = "NCR";
-        String city = "Delhi";
-        String subject = "Maths";
-        String picture = "picture.jpg";
-        String address = "Some Address";
-        String firstHobby = "Sports";
-        String secondHobby = "Reading";
-        String thirdHobby = "Music";
-
-
         registrationPage.openBrowser()
-                .setFirstName(firstName)
-                .setLastName(lastName)
-                .setUserEmail(userEmail)
-                .setGender(gender)
-                .setMonthOfBirth(monthOfBirth)
-                .setYearOfBirth(yearOfBirth)
-                .setDateOfBirth(dayOfBirth)
-                .setUserNumber(userNumber)
-                .setSubject(subject)
-                .setHobby(firstHobby)
-                .setHobby(secondHobby)
-                .setHobby(thirdHobby)
-                .setPicture(picture)
-                .setAddress(address)
-                .setState(state)
-                .setCity(city)
+                .setFirstName(dataForTest.firstName)
+                .setLastName(dataForTest.lastName)
+                .setUserEmail(dataForTest.userEmail)
+                .setGender(dataForTest.gender)
+                .setMonthOfBirth(dataForTest.monthOfBirth)
+                .setYearOfBirth(dataForTest.yearOfBirth)
+                .setDateOfBirth(dataForTest.dayOfBirthForEnter)
+                .setUserNumber(dataForTest.userNumber)
+                .setSubject(dataForTest.subject)
+                .setHobby(dataForTest.firstHobby)
+                .setHobby(dataForTest.secondHobby)
+                .setHobby(dataForTest.thirdHobby)
+                .setPicture(dataForTest.picture)
+                .setAddress(dataForTest.address)
+                .setState(dataForTest.state)
+                .setCity(dataForTest.city)
                 .clickSubmit();
 
+
+        testDataProvider.verifyValues(dataForTest.STUDENT_NAME,
+                (dataForTest.firstName + " " + dataForTest.lastName))
+                .verifyValues(dataForTest.STUDENT_EMAIL,
+                        dataForTest.userEmail)
+                .verifyValues(dataForTest.GENDER,
+                        dataForTest.gender)
+                .verifyValues(dataForTest.MOBILE, dataForTest.userNumber)
+                .verifyValues(dataForTest.DATE_OF_BIRTH,(dataForTest.dayOfBirthForAssert +
+                            " " + dataForTest.monthOfBirth + "," + dataForTest.yearOfBirth))
+                .verifyValues(dataForTest.SUBJECTS,
+                        dataForTest.subject)
+                .verifyValues(dataForTest.HOBBIES,
+                        dataForTest.firstHobby + ", "
+                                + dataForTest.secondHobby + ", "
+                                + dataForTest.thirdHobby)
+                .verifyValues(dataForTest.PICTURE,
+                        dataForTest.picture)
+                .verifyValues(dataForTest.ADDRESS,
+                        dataForTest.address)
+                .verifyValues(dataForTest.STATE_AND_CITY,
+                        dataForTest.state + " " + dataForTest.city);
+
         sleep(3000);
+
+
     }
-
-    @CsvSource({
-            "Student Name, Dima Li",
-            "Student Email, dima@mail.ru",
-            "Gender, Male",
-            "Mobile, 0987654321",
-            "Date of Birth, 20 March,2000",
-            "Subjects, Maths",
-            "Hobbies, Sports, Reading, Music",
-            "Picture, picture.jpg",
-            "Address, Some Address",
-            "State and City, NCR Delhi"
-    })
-    @ParameterizedTest()
-    void verifyValuesEnteredInTable(
-            String value,
-            String key
-    ) {
-        $("div.modal-body").$(byText(value)).sibling(0).shouldHave(text(key));
-    }
-
-
 }

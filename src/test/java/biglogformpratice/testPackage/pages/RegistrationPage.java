@@ -1,8 +1,6 @@
-package pages;
+package biglogformpratice.testPackage.pages;
 
 import com.codeborne.selenide.SelenideElement;
-
-import java.io.File;
 
 import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.Condition.visible;
@@ -62,7 +60,6 @@ public class RegistrationPage {
 
     public RegistrationPage setSubject(String subject) {
         inputSubject.setValue(subject).pressEnter();
-        ;
         return this;
     }
 
@@ -84,7 +81,6 @@ public class RegistrationPage {
     public RegistrationPage setState(String state) {
         inputStateAndCity.$(byText("Select State")).click();
         $(byText(state)).click();
-
         return this;
     }
 

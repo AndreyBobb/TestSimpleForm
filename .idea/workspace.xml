@@ -4,22 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ec7056c6-9b4c-4d3a-9860-835394ea1eee" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/github/BestContributorToSelenide.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/github/SelenideRepositorySearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/selenide/CheckJUnitCodeOnSelenide.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/selenide/TestHover.java" afterDir="false" />
+    <list default="true" id="ec7056c6-9b4c-4d3a-9860-835394ea1eee" name="Changes" comment="Exercises">
+      <change afterPath="$PROJECT_DIR$/src/test/java/biglogformpratice/asserttests/TestDataProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/biglogformpratice/dataforpageform/DataForTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/biglogformpratice/testPackage/pages/RegistrationPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/biglogformpratice/testbaseandform/TestBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/biglogformpratice/testbaseandform/TestPractiseForm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testlog/TestLogForm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/picture.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/selenide/TestHover.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/selenide/TestHover.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +27,21 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -40,6 +51,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/test/java/testPackage/TestPractiseForm.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
@@ -55,11 +69,21 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;inlay.hints&quot;
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;http.proxy&quot;
   }
 }</component>
-  <component name="RunManager" selected="Gradle.TestHover.switchRectangles">
-    <configuration name="CheckJUnitCodeOnSelenide.onSelenidePageShouldBeExampleCodeForJUnit5" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="A:\java\projects\Trytests\src\test\java\biglogformpratice" />
+      <recent name="A:\java\projects\Trytests\src\test\java\biglogformpratice\testbaseandform" />
+      <recent name="A:\java\projects\Trytests\src\test\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Gradle.TestPractiseForm (1)">
+    <configuration name="CheckJUnitCodeOnSelenide" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -72,7 +96,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;selenide.CheckJUnitCodeOnSelenide.onSelenidePageShouldBeExampleCodeForJUnit5&quot;" />
+            <option value="&quot;selenide.CheckJUnitCodeOnSelenide&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -83,7 +107,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="TestHover (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="TestPractiseForm (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -96,7 +120,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;selenide.TestHover&quot;" />
+            <option value="&quot;biglogformpratice.testbaseandform.TestPractiseForm&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -107,7 +131,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="TestHover" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="TestPractiseForm" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -120,7 +144,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;Exercises.TestHover&quot;" />
+            <option value="&quot;testPackage.TestPractiseForm&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -131,7 +155,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="TestHover.shouldOpenEnterprises" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="TestPractiseForm.testOfPractiseForm (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -144,7 +168,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;Exercises.TestHover.shouldOpenEnterprises&quot;" />
+            <option value="&quot;biglogformpratice.testbaseandform.TestPractiseForm.testOfPractiseForm&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -155,7 +179,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="TestHover.switchRectangles" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="TestPractiseForm.verifyValuesEnteredInTable (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -168,7 +192,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;selenide.TestHover.switchRectangles&quot;" />
+            <option value="&quot;biglogformpratice.testbaseandform.TestPractiseForm.verifyValuesEnteredInTable&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -181,11 +205,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.TestHover.switchRectangles" />
-        <item itemvalue="Gradle.TestHover (1)" />
-        <item itemvalue="Gradle.TestHover" />
-        <item itemvalue="Gradle.CheckJUnitCodeOnSelenide.onSelenidePageShouldBeExampleCodeForJUnit5" />
-        <item itemvalue="Gradle.TestHover.shouldOpenEnterprises" />
+        <item itemvalue="Gradle.TestPractiseForm (1)" />
+        <item itemvalue="Gradle.TestPractiseForm.verifyValuesEnteredInTable (1)" />
+        <item itemvalue="Gradle.TestPractiseForm.testOfPractiseForm (1)" />
+        <item itemvalue="Gradle.CheckJUnitCodeOnSelenide" />
+        <item itemvalue="Gradle.TestPractiseForm" />
       </list>
     </recent_temporary>
   </component>
@@ -198,6 +222,19 @@
       <option name="presentableId" value="Default" />
       <updated>1735981343817</updated>
     </task>
+    <task id="LOCAL-00001" summary="Exercises">
+      <option name="closed" value="true" />
+      <created>1736187598679</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1736187598679</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Exercises" />
+    <option name="LAST_COMMIT_MESSAGE" value="Exercises" />
   </component>
 </project>
