@@ -12,7 +12,7 @@ public class TestPractiseForm extends TestBase {
     DataForTest dataForTest = new DataForTest();
     TestDataProvider testDataProvider = new TestDataProvider();
 
-    @Tag("test_form")
+    @Tag("simple")
     @Test
     void testOfPractiseForm() {
         registrationPage.openBrowser()
