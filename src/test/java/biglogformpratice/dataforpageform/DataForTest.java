@@ -31,14 +31,14 @@ public class DataForTest {
     public String gender = "Male";
     public String userNumber = data.numerify("##########");
     public String dayOfBirthForEnter = String.format("%03d", day);
-    public String dayOfBirthForAssert =  String.format("%02d", day);
+    public String dayOfBirthForAssert = String.format("%02d", day);
     public String monthOfBirth = sdf.format(calendar.getTime());
     public String yearOfBirth = String.format("%d", year);
     public String state = "NCR";
     public String city = "Delhi";
     public String subject = "Maths";
     public String picture = "picture.jpg";
-    public String address = String.valueOf(data.address().fullAddress());;
+    public String address = String.valueOf(data.address().fullAddress());
     public String firstHobby = "Sports";
     public String secondHobby = "Reading";
     public String thirdHobby = "Music";

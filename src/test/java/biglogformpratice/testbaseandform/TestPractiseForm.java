@@ -4,6 +4,7 @@ import biglogformpratice.asserttests.TestDataProvider;
 import biglogformpratice.dataforpageform.DataForTest;
 
 import org.junit.jupiter.api.Test;
+
 import static com.codeborne.selenide.Selenide.*;
 
 public class TestPractiseForm extends TestBase {
@@ -34,14 +35,14 @@ public class TestPractiseForm extends TestBase {
 
 
         testDataProvider.verifyValues(dataForTest.STUDENT_NAME,
-                (dataForTest.firstName + " " + dataForTest.lastName))
+                        (dataForTest.firstName + " " + dataForTest.lastName))
                 .verifyValues(dataForTest.STUDENT_EMAIL,
                         dataForTest.userEmail)
                 .verifyValues(dataForTest.GENDER,
                         dataForTest.gender)
                 .verifyValues(dataForTest.MOBILE, dataForTest.userNumber)
-                .verifyValues(dataForTest.DATE_OF_BIRTH,(dataForTest.dayOfBirthForAssert +
-                            " " + dataForTest.monthOfBirth + "," + dataForTest.yearOfBirth))
+                .verifyValues(dataForTest.DATE_OF_BIRTH, (dataForTest.dayOfBirthForAssert +
+                        " " + dataForTest.monthOfBirth + "," + dataForTest.yearOfBirth))
                 .verifyValues(dataForTest.SUBJECTS,
                         dataForTest.subject)
                 .verifyValues(dataForTest.HOBBIES,
