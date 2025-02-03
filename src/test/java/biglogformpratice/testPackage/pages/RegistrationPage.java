@@ -64,7 +64,7 @@ public class RegistrationPage {
     }
 
     public RegistrationPage setHobby(String hobby) {
-        inputHobby.$(byText(hobby)).click();
+        inputHobby.shouldBe(visible).$(byText(hobby)).click();
         return this;
     }
 

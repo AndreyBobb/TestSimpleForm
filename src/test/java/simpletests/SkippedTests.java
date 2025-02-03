@@ -14,11 +14,13 @@ public class SkippedTests {
         assertTrue(true);
     }
 
+    @Disabled("Reason")
     @Test
     void test2() {
         assertTrue(true);
     }
 
+    @Disabled("Reason")
     @Test
     void test3() {
         assertTrue(true);

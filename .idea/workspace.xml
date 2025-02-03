@@ -4,11 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ec7056c6-9b4c-4d3a-9860-835394ea1eee" name="Changes" comment="Added Allure to the build.gradle">
-      <change afterPath="$PROJECT_DIR$/src/test/java/simpletests/NegativeTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/simpletests/PositiveTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/simpletests/SkippedTests.java" afterDir="false" />
+    <list default="true" id="ec7056c6-9b4c-4d3a-9860-835394ea1eee" name="Changes" comment="Changed build.gradle">
+      <change afterPath="$PROJECT_DIR$/src/test/java/biglogformpratice/testbaseandform/TestBaseExtended.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/biglogformpratice/testbaseandform/TestPractiseFormWithRemoteDriver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/biglogformpratice/asserttests/TestDataProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/biglogformpratice/asserttests/TestDataProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/biglogformpratice/testPackage/pages/RegistrationPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/biglogformpratice/testPackage/pages/RegistrationPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/simpletests/SkippedTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/simpletests/SkippedTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,11 +79,23 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "AndreyBobb"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/AndreyBobb/TestSimpleForm.git",
+    "accountId": "cb3922d8-df09-4e8b-a8de-13b50eb73a39"
+  }
+}]]></component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/test/java/testPackage/TestPractiseForm.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="ProjectErrors" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
@@ -91,10 +108,15 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Gradle.TestPractiseForm (1).executor": "Run",
+    "Gradle.TestPractiseForm (1).executor": "Debug",
+    "Gradle.TestPractiseFormWithRemoteDriver (1).executor": "Debug",
+    "Gradle.TestPractiseFormWithRemoteDriver.executor": "Run",
+    "Gradle.Trytests [remote_test].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "training",
+    "kotlin-language-version-configured": "true",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.0",
@@ -107,32 +129,11 @@
       <recent name="A:\java\projects\Trytests\src\test\java\biglogformpratice\testbaseandform" />
       <recent name="A:\java\projects\Trytests\src\test\resources" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="biglogformpratice.testbaseandform" />
+    </key>
   </component>
-  <component name="RunManager" selected="Gradle.TestPractiseForm (1)">
-    <configuration name="CheckJUnitCodeOnSelenide" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;selenide.CheckJUnitCodeOnSelenide&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Gradle.Trytests [remote_test]">
     <configuration name="TestPractiseForm (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -157,7 +158,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="TestPractiseForm" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="TestPractiseFormWithRemoteDriver (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -170,7 +171,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;testPackage.TestPractiseForm&quot;" />
+            <option value="&quot;biglogformpratice.testbaseandform.TestPractiseFormWithRemoteDriver&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -181,7 +182,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="TestPractiseForm.testOfPractiseForm (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="TestPractiseFormWithRemoteDriver" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -192,9 +193,9 @@
         </option>
         <option name="taskNames">
           <list>
-            <option value=":test" />
+            <option value=":simple_test" />
             <option value="--tests" />
-            <option value="&quot;biglogformpratice.testbaseandform.TestPractiseForm.testOfPractiseForm&quot;" />
+            <option value="&quot;biglogformpratice.testbaseandform.TestPractiseFormWithRemoteDriver&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -229,13 +230,35 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
+    <configuration name="Trytests [remote_test]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="remote_test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.Trytests [remote_test]" />
+        <item itemvalue="Gradle.TestPractiseFormWithRemoteDriver (1)" />
+        <item itemvalue="Gradle.TestPractiseFormWithRemoteDriver" />
         <item itemvalue="Gradle.TestPractiseForm (1)" />
         <item itemvalue="Gradle.TestPractiseForm.verifyValuesEnteredInTable (1)" />
-        <item itemvalue="Gradle.TestPractiseForm.testOfPractiseForm (1)" />
-        <item itemvalue="Gradle.TestPractiseForm" />
-        <item itemvalue="Gradle.CheckJUnitCodeOnSelenide" />
       </list>
     </recent_temporary>
   </component>
@@ -283,12 +306,46 @@
       <option name="project" value="LOCAL" />
       <updated>1738496351988</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Added new simple tests">
+      <option name="closed" value="true" />
+      <created>1738507187308</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1738507187308</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Changed build.gradle">
+      <option name="closed" value="true" />
+      <created>1738507439930</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1738507439930</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Exercises" />
     <MESSAGE value="Delete superfluous" />
-    <option name="LAST_COMMIT_MESSAGE" value="Delete superfluous" />
+    <MESSAGE value="Added new simple tests" />
+    <MESSAGE value="Changed build.gradle" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed build.gradle" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/biglogformpratice/testbaseandform/TestPractiseForm.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/biglogformpratice/testbaseandform/TestPractiseFormWithRemoteDriver.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
