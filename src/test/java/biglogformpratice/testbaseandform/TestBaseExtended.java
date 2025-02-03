@@ -4,14 +4,11 @@ import biglogformpratice.testPackage.pages.RegistrationPage;
 import com.codeborne.selenide.Configuration;
 import com.codeborne.selenide.logevents.SelenideLogger;
 import io.qameta.allure.selenide.AllureSelenide;
-import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.openqa.selenium.chrome.ChromeOptions;
 
 import java.util.HashMap;
-
-import static com.codeborne.selenide.Selenide.$;
 
 public class TestBaseExtended {
 
@@ -35,7 +32,7 @@ public class TestBaseExtended {
     }
 
     @BeforeEach
-    void addListener () {
+    void addListener() {
         SelenideLogger.addListener("AllureSelenide", new AllureSelenide());
     }
 
