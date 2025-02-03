@@ -4,16 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ec7056c6-9b4c-4d3a-9860-835394ea1eee" name="Changes" comment="Changed build.gradle">
-      <change afterPath="$PROJECT_DIR$/src/test/java/biglogformpratice/testbaseandform/TestBaseExtended.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/biglogformpratice/testbaseandform/TestPractiseFormWithRemoteDriver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="ec7056c6-9b4c-4d3a-9860-835394ea1eee" name="Changes" comment="Added remote test">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/biglogformpratice/asserttests/TestDataProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/biglogformpratice/asserttests/TestDataProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/biglogformpratice/testPackage/pages/RegistrationPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/biglogformpratice/testPackage/pages/RegistrationPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/simpletests/SkippedTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/simpletests/SkippedTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/biglogformpratice/testbaseandform/TestBaseExtended.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/biglogformpratice/testbaseandform/TestBaseExtended.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/biglogformpratice/testbaseandform/TestPractiseFormWithRemoteDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/biglogformpratice/testbaseandform/TestPractiseFormWithRemoteDriver.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -322,7 +317,15 @@
       <option name="project" value="LOCAL" />
       <updated>1738507439930</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Added remote test">
+      <option name="closed" value="true" />
+      <created>1738596430425</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1738596430425</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -330,7 +333,8 @@
     <MESSAGE value="Delete superfluous" />
     <MESSAGE value="Added new simple tests" />
     <MESSAGE value="Changed build.gradle" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changed build.gradle" />
+    <MESSAGE value="Added remote test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added remote test" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -339,11 +343,6 @@
           <url>file://$PROJECT_DIR$/src/test/java/biglogformpratice/testbaseandform/TestPractiseForm.java</url>
           <line>23</line>
           <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/biglogformpratice/testbaseandform/TestPractiseFormWithRemoteDriver.java</url>
-          <line>22</line>
-          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

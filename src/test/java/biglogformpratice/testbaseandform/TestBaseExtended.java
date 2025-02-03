@@ -2,8 +2,11 @@ package biglogformpratice.testbaseandform;
 
 import biglogformpratice.testPackage.pages.RegistrationPage;
 import com.codeborne.selenide.Configuration;
+import com.codeborne.selenide.logevents.SelenideLogger;
+import io.qameta.allure.selenide.AllureSelenide;
 import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.BeforeEach;
 import org.openqa.selenium.chrome.ChromeOptions;
 
 import java.util.HashMap;
@@ -27,6 +30,13 @@ public class TestBaseExtended {
             put("enableVideo", true);
         }});
 
+        Configuration.browserCapabilities = options;
+
+    }
+
+    @BeforeEach
+    void addListener () {
+        SelenideLogger.addListener("AllureSelenide", new AllureSelenide());
     }
 
 }
