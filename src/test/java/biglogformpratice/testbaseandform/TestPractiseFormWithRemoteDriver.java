@@ -35,11 +35,8 @@ public class TestPractiseFormWithRemoteDriver extends TestBaseExtended {
                     .setPicture(dataForTest.picture)
                     .setAddress(dataForTest.address)
                     .setState(dataForTest.state)
-                    .setCity(dataForTest.city);
-        });
-
-        step("Click submit button", () -> {
-            registrationPage.clickSubmit();
+                    .setCity(dataForTest.city)
+                    .clickSubmit();
         });
 
         step("Verify form", () -> {
