@@ -19,16 +19,14 @@ public class TestBaseExtended {
     @BeforeAll
     static void decreaseOfWindowSize() {
         Configuration.baseUrl = "https://demoqa.com/";
-//
 //        Configuration.browserSize = "1920x1080";
 //        Configuration.browser = "chrome";
 //        Configuration.browserVersion = "126.0";
 //        Configuration.remote = "https://user1:1234@selenoid.autotests.cloud/wd/hub";
-
-        Configuration.remote = System.getProperty("Url_Of_Selenoid");
         Configuration.browser = System.getProperty("browser");
         Configuration.browserVersion = System.getProperty("version");
         Configuration.browserSize = System.getProperty("browser_size");
+        Configuration.remote = System.getProperty("Url_Of_Selenoid");
 
 
         ChromeOptions options = new ChromeOptions();

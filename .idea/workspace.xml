@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ec7056c6-9b4c-4d3a-9860-835394ea1eee" name="Changes" comment="Added properties tests">
+    <list default="true" id="ec7056c6-9b4c-4d3a-9860-835394ea1eee" name="Changes" comment="Added properties for url of Selenoid, size, version and name of browser,">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/biglogformpratice/testbaseandform/TestBaseExtended.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/biglogformpratice/testbaseandform/TestBaseExtended.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/biglogformpratice/testbaseandform/TestPractiseForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/biglogformpratice/testbaseandform/TestPractiseForm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/properties/SystemPropertiesTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/properties/SystemPropertiesTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -150,31 +147,7 @@
       <recent name="biglogformpratice.testbaseandform" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.Trytests [hello_test]">
-    <configuration name="SystemPropertiesTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;properties.SystemPropertiesTests&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Gradle.Trytests [allureServe]">
     <configuration name="SystemPropertiesTests.simpleProperty1Test" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -223,6 +196,28 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
+    <configuration name="Trytests [allureServe]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="allureServe" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
     <configuration name="Trytests [hello_test]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -269,11 +264,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.Trytests [allureServe]" />
         <item itemvalue="Gradle.Trytests [hello_test]" />
         <item itemvalue="Gradle.Trytests [one_property_test]" />
         <item itemvalue="Gradle.SystemPropertiesTests.simpleProperty2Test" />
         <item itemvalue="Gradle.SystemPropertiesTests.simpleProperty1Test" />
-        <item itemvalue="Gradle.SystemPropertiesTests" />
       </list>
     </recent_temporary>
   </component>
@@ -393,7 +388,15 @@
       <option name="project" value="LOCAL" />
       <updated>1738668687295</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Added properties for url of Selenoid, size, version and name of browser,">
+      <option name="closed" value="true" />
+      <created>1738681695610</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1738681695610</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -407,6 +410,7 @@
     <MESSAGE value="Deleted superfluous steps" />
     <MESSAGE value="Added attaches - video" />
     <MESSAGE value="Added properties tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added properties tests" />
+    <MESSAGE value="Added properties for url of Selenoid, size, version and name of browser," />
+    <option name="LAST_COMMIT_MESSAGE" value="Added properties for url of Selenoid, size, version and name of browser," />
   </component>
 </project>
