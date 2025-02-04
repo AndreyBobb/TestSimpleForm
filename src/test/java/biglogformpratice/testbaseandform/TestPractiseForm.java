@@ -3,6 +3,7 @@ package biglogformpratice.testbaseandform;
 import biglogformpratice.asserttests.TestDataProvider;
 import biglogformpratice.dataforpageform.DataForTest;
 
+import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 import static com.codeborne.selenide.Selenide.*;
 
@@ -12,6 +13,7 @@ public class TestPractiseForm extends TestBase {
 
 
     @Test
+    @Tag("demoQA_form")
     void testOfPractiseForm() {
         registrationPage.openBrowser()
                 .setFirstName(dataForTest.firstName)

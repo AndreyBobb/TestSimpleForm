@@ -1,5 +1,6 @@
 package properties;
 
+import com.codeborne.selenide.Configuration;
 import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 
@@ -30,5 +31,6 @@ public class SystemPropertiesTests {
     @Tag("hello")
     void simpleProperty3Test(){
         System.out.println("Hello " + System.getProperty("user_name", "unknown student"));
+
     }
 }

@@ -76,6 +76,12 @@ task few_tests(type: Test){
     }
 }
 
+task demoqa_form_test(type: Test){
+    useJUnitPlatform{
+        includeTags("demoQA_form")
+    }
+}
+
 test {
     useJUnitPlatform()
 }
