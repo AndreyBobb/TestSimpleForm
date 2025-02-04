@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ec7056c6-9b4c-4d3a-9860-835394ea1eee" name="Changes" comment="Added attaches - video" />
+    <list default="true" id="ec7056c6-9b4c-4d3a-9860-835394ea1eee" name="Changes" comment="Added attaches - video">
+      <change afterPath="$PROJECT_DIR$/src/test/java/properties/SystemPropertiesTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tags/NegativeTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tags/PositiveTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,6 +43,18 @@
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="Trytests" type="f1a62948:ProjectNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Trytests" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build setup" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Trytests" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
                 <item name="verification" type="c8890929:TasksNode$1" />
               </path>
               <path>
@@ -64,23 +82,23 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="training" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "AndreyBobb"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;AndreyBobb&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/AndreyBobb/TestSimpleForm.git",
-    "accountId": "cb3922d8-df09-4e8b-a8de-13b50eb73a39"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/AndreyBobb/TestSimpleForm.git&quot;,
+    &quot;accountId&quot;: &quot;cb3922d8-df09-4e8b-a8de-13b50eb73a39&quot;
   }
-}]]></component>
+}</component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/test/java/testPackage/TestPractiseForm.java" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -98,15 +116,20 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Gradle.SystemPropertiesTests.executor": "Run",
+    "Gradle.SystemPropertiesTests.simpleProperty1Test.executor": "Run",
+    "Gradle.SystemPropertiesTests.simpleProperty2Test.executor": "Run",
     "Gradle.TestPractiseForm (1).executor": "Debug",
     "Gradle.TestPractiseFormWithRemoteDriver (1).executor": "Run",
     "Gradle.TestPractiseFormWithRemoteDriver.executor": "Run",
+    "Gradle.Trytests [one_property_test].executor": "Run",
     "Gradle.Trytests [remote_test].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "training",
+    "git-widget-placeholder": "properties",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "A:/java/projects/Trytests/src/test/java/tags",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.0",
@@ -114,6 +137,9 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="A:\java\projects\Trytests\src\test\java\tags" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="A:\java\projects\Trytests\src\test\java\biglogformpratice" />
       <recent name="A:\java\projects\Trytests\src\test\java\biglogformpratice\testbaseandform" />
@@ -123,8 +149,8 @@
       <recent name="biglogformpratice.testbaseandform" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.TestPractiseFormWithRemoteDriver (1)">
-    <configuration name="TestPractiseForm (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.Trytests [one_property_test]">
+    <configuration name="SystemPropertiesTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -137,7 +163,55 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;biglogformpratice.testbaseandform.TestPractiseForm&quot;" />
+            <option value="&quot;properties.SystemPropertiesTests&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="SystemPropertiesTests.simpleProperty1Test" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;properties.SystemPropertiesTests.simpleProperty1Test&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="SystemPropertiesTests.simpleProperty2Test" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;properties.SystemPropertiesTests.simpleProperty2Test&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -172,55 +246,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="TestPractiseFormWithRemoteDriver" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":simple_test" />
-            <option value="--tests" />
-            <option value="&quot;biglogformpratice.testbaseandform.TestPractiseFormWithRemoteDriver&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
-    <configuration name="TestPractiseForm.verifyValuesEnteredInTable (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;biglogformpratice.testbaseandform.TestPractiseForm.verifyValuesEnteredInTable&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
-    <configuration name="Trytests [remote_test]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="Trytests [one_property_test]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -231,7 +257,7 @@
         </option>
         <option name="taskNames">
           <list>
-            <option value="remote_test" />
+            <option value="one_property_test" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -244,11 +270,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.Trytests [one_property_test]" />
+        <item itemvalue="Gradle.SystemPropertiesTests.simpleProperty2Test" />
+        <item itemvalue="Gradle.SystemPropertiesTests.simpleProperty1Test" />
+        <item itemvalue="Gradle.SystemPropertiesTests" />
         <item itemvalue="Gradle.TestPractiseFormWithRemoteDriver (1)" />
-        <item itemvalue="Gradle.Trytests [remote_test]" />
-        <item itemvalue="Gradle.TestPractiseFormWithRemoteDriver" />
-        <item itemvalue="Gradle.TestPractiseForm (1)" />
-        <item itemvalue="Gradle.TestPractiseForm.verifyValuesEnteredInTable (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -352,7 +378,15 @@
       <option name="project" value="LOCAL" />
       <updated>1738601047830</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Added attaches - video">
+      <option name="closed" value="true" />
+      <created>1738601408021</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1738601408021</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
