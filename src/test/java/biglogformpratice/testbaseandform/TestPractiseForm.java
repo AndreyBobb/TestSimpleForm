@@ -1,7 +1,7 @@
 package biglogformpratice.testbaseandform;
 
-import biglogformpratice.asserttests.TestDataProvider;
-import biglogformpratice.dataforpageform.DataForTest;
+import biglogformpratice.dataprovaiders.TestDataProvider;
+import biglogformpratice.dataprovaiders.DataForTest;
 
 import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;

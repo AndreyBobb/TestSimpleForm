@@ -1,4 +1,4 @@
-package biglogformpratice.asserttests;
+package biglogformpratice.dataprovaiders;
 
 import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.Selectors.byText;

@@ -1,4 +1,4 @@
-package biglogformpratice.dataforpageform;
+package biglogformpratice.dataprovaiders;
 
 import com.github.javafaker.*;
 
