@@ -12,6 +12,8 @@ import org.openqa.selenium.chrome.ChromeOptions;
 
 import java.util.HashMap;
 
+import static com.codeborne.selenide.Selenide.sleep;
+
 
 public class TestBaseExtended {
 

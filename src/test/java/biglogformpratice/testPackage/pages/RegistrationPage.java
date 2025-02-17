@@ -27,8 +27,6 @@ public class RegistrationPage {
         open("automation-practice-form");
         $("div.practice-form-wrapper")
                 .shouldHave(text(TITLE_TEXT));
-        executeJavaScript("$('#fixedban').remove");
-        executeJavaScript("$('footer').remove");
         return this;
     }
 
