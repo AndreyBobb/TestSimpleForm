@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ec7056c6-9b4c-4d3a-9860-835394ea1eee" name="Changes" comment="Fixed Configuration.remote">
+    <list default="true" id="ec7056c6-9b4c-4d3a-9860-835394ea1eee" name="Changes" comment="Added attaches - video">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/helpers/Attach.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/helpers/Attach.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/biglogformpratice/testPackage/pages/RegistrationPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/biglogformpratice/testPackage/pages/RegistrationPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/biglogformpratice/testbaseandform/TestBaseExtended.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/biglogformpratice/testbaseandform/TestBaseExtended.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,22 +115,16 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Gradle.SystemPropertiesTests.executor": "Run",
-    "Gradle.SystemPropertiesTests.simpleProperty1Test.executor": "Run",
-    "Gradle.SystemPropertiesTests.simpleProperty2Test.executor": "Run",
     "Gradle.TestPractiseForm (1).executor": "Debug",
     "Gradle.TestPractiseFormWithRemoteDriver (1).executor": "Run",
     "Gradle.TestPractiseFormWithRemoteDriver.executor": "Run",
-    "Gradle.Trytests [allureServe].executor": "Run",
-    "Gradle.Trytests [hello_test].executor": "Run",
-    "Gradle.Trytests [one_property_test].executor": "Run",
+    "Gradle.TestPractiseFormWithRemoteDriver.testOfPractiseForm.executor": "Debug",
     "Gradle.Trytests [remote_test].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "properties",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "A:/java/projects/Trytests/src/test/java/tags",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.0",
@@ -136,9 +132,6 @@
   }
 }]]></component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="A:\java\projects\Trytests\src\test\java\tags" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="A:\java\projects\Trytests\src\test\java\biglogformpratice" />
       <recent name="A:\java\projects\Trytests\src\test\java\biglogformpratice\testbaseandform" />
@@ -148,31 +141,7 @@
       <recent name="biglogformpratice.testbaseandform" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.Trytests [allureServe]">
-    <configuration name="SystemPropertiesTests.simpleProperty1Test" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;properties.SystemPropertiesTests.simpleProperty1Test&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Gradle.TestPractiseFormWithRemoteDriver.testOfPractiseForm">
     <configuration name="SystemPropertiesTests.simpleProperty2Test" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -187,6 +156,30 @@
             <option value=":test" />
             <option value="--tests" />
             <option value="&quot;properties.SystemPropertiesTests.simpleProperty2Test&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="TestPractiseFormWithRemoteDriver.testOfPractiseForm" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":remote_test" />
+            <option value="--tests" />
+            <option value="&quot;biglogformpratice.testbaseandform.TestPractiseFormWithRemoteDriver.testOfPractiseForm&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -265,11 +258,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.Trytests [allureServe]" />
-        <item itemvalue="Gradle.Trytests [hello_test]" />
+        <item itemvalue="Gradle.TestPractiseFormWithRemoteDriver.testOfPractiseForm" />
         <item itemvalue="Gradle.Trytests [one_property_test]" />
+        <item itemvalue="Gradle.Trytests [hello_test]" />
+        <item itemvalue="Gradle.Trytests [allureServe]" />
         <item itemvalue="Gradle.SystemPropertiesTests.simpleProperty2Test" />
-        <item itemvalue="Gradle.SystemPropertiesTests.simpleProperty1Test" />
       </list>
     </recent_temporary>
   </component>
@@ -373,39 +366,7 @@
       <option name="project" value="LOCAL" />
       <updated>1738601047830</updated>
     </task>
-    <task id="LOCAL-00012" summary="Added attaches - video">
-      <option name="closed" value="true" />
-      <created>1738601408021</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1738601408021</updated>
-    </task>
-    <task id="LOCAL-00013" summary="Added properties tests">
-      <option name="closed" value="true" />
-      <created>1738668687295</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1738668687295</updated>
-    </task>
-    <task id="LOCAL-00014" summary="Added properties for url of Selenoid, size, version and name of browser,">
-      <option name="closed" value="true" />
-      <created>1738681695610</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1738681695610</updated>
-    </task>
-    <task id="LOCAL-00015" summary="Fixed Configuration.remote">
-      <option name="closed" value="true" />
-      <created>1738682424263</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1738682424263</updated>
-    </task>
-    <option name="localTasksCounter" value="16" />
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -418,9 +379,6 @@
     <MESSAGE value="Deleted superfluous imports" />
     <MESSAGE value="Deleted superfluous steps" />
     <MESSAGE value="Added attaches - video" />
-    <MESSAGE value="Added properties tests" />
-    <MESSAGE value="Added properties for url of Selenoid, size, version and name of browser," />
-    <MESSAGE value="Fixed Configuration.remote" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed Configuration.remote" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added attaches - video" />
   </component>
 </project>

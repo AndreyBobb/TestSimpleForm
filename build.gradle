@@ -72,8 +72,13 @@ task hello_test(type: Test){
 task few_tests(type: Test){
     useJUnitPlatform{
         includeTags("positive", "negative")
-        excludeTags("prod")
     }
+}
+
+task fewTests(type: Test) {
+    useJUnitPlatform()
+
+    systemProperty 'junit.jupiter.tags.include', 'positive,negative'
 }
 
 task demoqa_form_test(type: Test){
